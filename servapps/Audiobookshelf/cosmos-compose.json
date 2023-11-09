@@ -3,9 +3,9 @@
   "cosmos-installer": {
     "form": [
       {
-        "name": "audiobooks",
+        "name": "changedetection:",
         "label": "Where do you store your audiobooks?",
-        "initialValue": "{DefaultDataPath}/audiobooks",
+        "initialValue": "{DefaultDataPath}/changedetection",
         "type": "text"
       },
       {
@@ -19,7 +19,7 @@
   "minVersion": "0.9.6",
   "services": {
     "{ServiceName}": {
-      "image": "ghcr.io/advplyr/audiobookshelf:latest",
+      "image": "ghcr.io/dgtlmoon/changedetection.io",
       "container_name": "{ServiceName}",
       "restart": "unless-stopped",
       "labels": {
@@ -30,7 +30,7 @@
       "volumes": [
         {
           "source": "{ServiceName}-config",
-          "target": "/config",
+          "target": "/datastore",
           "type": "volume"
         },
         {
