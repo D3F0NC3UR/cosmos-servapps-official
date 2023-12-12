@@ -1,7 +1,7 @@
 [
   {
-    "name": "Audiobookshelf",
-    "longDescription": "<p>Audiobookshelf is an open-source, self-hosted, audiobook and podcast server. It features an Android and iOS app for streaming your library, multi-user support, storing progress per user, and syncing across devices.</p><p>It also includes various audiobook management services like metadata fetching, chapter editing tools, and media merging.</p>",
+    "name": "Audiobookshelf2",
+    "longDescription": "<p>shit is an open-source, self-hosted, audiobook and podcast server. It features an Android and iOS app for streaming your library, multi-user support, storing progress per user, and syncing across devices.</p><p>It also includes various audiobook management services like metadata fetching, chapter editing tools, and media merging.</p>",
     "description": "Audiobookshelf is a self-hosted audiobook and podcast server.",
     "tags": [
       "e-book",
