@@ -23,7 +23,7 @@ for (const file of servapps) {
   if(fs.existsSync(`./servapps/${file}/artefacts`)) {
     const artefacts = fs.readdirSync(`./servapps/${file}/artefacts`)
     for(const artefact of artefacts) {
-      servapp.artefacts[artefact] = (`https://azukaar.github.io/cosmos-servapps-official/servapps/${file}/artefacts/${artefact}`)
+      servapp.artefacts[artefact] = (`https://github.com/D3F0NC3UR/cosmos-servapps-official/servapps/${file}/artefacts/${artefact}`)
     }
   }
 
